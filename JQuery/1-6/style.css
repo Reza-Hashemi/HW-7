@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: orange;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+#home {
+  width: 33.33%;
+}
+#page {
+  width: 33.33%;
+}
+#link {
+  width: 33.33%;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: left;
+}
+.dropdwon {
+  position: relative;
+  display: inline-block;
+}
+.content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  z-index: 1;
+  width: 100%;
+}
+.content a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+a {
+  font-size: 15px;
+}
